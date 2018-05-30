@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/shiliang2"
+        android:orderInCategory="100"
+        android:title="矢量图"/>
+    <item android:id="@+id/yingxaing2"
+        android:orderInCategory="100"
+        android:title="影像图"/>
+    <item android:id="@+id/dixing2"
+        android:orderInCategory="100"
+        android:title="地形图"/>
+    <item android:id="@+id/gps"
+        android:orderInCategory="100"
+        android:title="GPS定位"/>
+    <item android:id="@+id/net"
+        android:orderInCategory="100"
+        android:title="net定位"/>
+    <item android:id="@+id/best"
+        android:orderInCategory="100"
+        android:title="best定位"/>
+
+</menu>

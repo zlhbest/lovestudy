@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yasic.library.particletextview.View.ParticleTextView
+        android:id="@+id/particleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <com.example.henshin.study.qiushiye.TagCloudView
+        android:id="@+id/tag_cloud"
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        android:layout_margin="10dp"
+        android:background="@color/account_lock_font_color"
+        app:autoScrollMode="uniform"
+        app:darkColor="@color/colorPrimary"
+        app:lightColor="@color/edit_hint_color1"
+        app:radiusPercent="0.6"
+        app:scrollSpeed="3" />
+</LinearLayout>
